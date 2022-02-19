@@ -1,0 +1,106 @@
+body {
+	background-color: rgb(246, 249, 252);
+	color: seagreen;
+	font-family: Courier;
+	font-weight: 100;
+}
+
+h1 {
+	color: rgb(52, 143, 226);
+	font-family: Roboto Serif, sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+}
+h2 {
+	color: rgb(52, 143, 226);
+	font-family: Times New Roman;
+	font-weight: 600;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+h3 {
+	color: seagreen;
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 15px;
+}
+a {
+  color: orange;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}a:hover {
+  color: seagreen;
+  text-decoration: none;
+}
+
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  text-align: center;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px lightgrey;
+	border-radius: 4px;
+	margin: 20px 0px;
+}
+
+
+#profile{
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px black;
+	text-align:center;
+	margin: center;
+	display:flex;
+	width: 100px;
+  margin: 0 auto;
+}
+
+#btn-orange{
+	background-color: rgb(247, 151, 54);
+	color: seagreen;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+#btn-orange:hover{
+	background-color: rgb(247, 151, 54);
+	color: white;
+
+}
+
+#list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+#list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#list-inline i{
+	font-size: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
